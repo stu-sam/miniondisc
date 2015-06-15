@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+
+#container {
+	position: relative;
+	top: 100px;
+	left: 30%;
+}
+
+#back {
+position: absolute;
+background-image: url(imgs/rainbow_gradient.jpg);
+width: 450px;
+height: 450px;
+border-radius: 450px;
+}
+
+.rotating:hover {
+	animation: rotating 200ms linear infinite;
+	 -webkit-animation: rotating 200ms linear infinite;
+	cursor: pointer;
+}
+
+@-webkit-keyframes rotating {
+  0% {
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+	-ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#hip {
+position: absolute;
+background-image: url(imgs/hypnosis2.png);
+width: 300px;
+height: 300px;
+border-radius: 300px;
+top: 75px;
+left: 75px;
+}
+
+#minion {
+position: absolute;
+background-image: url(imgs/minion1.png);
+width: 140px;
+height: 165px;
+top: 130px;
+left: 160px;
+}
+
+
